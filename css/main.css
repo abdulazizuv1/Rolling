@@ -537,7 +537,7 @@ section{
         justify-content: center;
     }
     footer{
-        padding: 40px 20px;
+        padding: 40px 0px;
     }
     .footer_title{
         display: flex;
@@ -554,7 +554,7 @@ section{
     }
     .footer_box form button{
         height: 50px;
-        padding: 0px 20px;
+        padding: 0px 8px;
     }
     .footer_box form button p{
         font-size: 13px;
@@ -588,5 +588,11 @@ section{
     }
     .privacy{
         display: none;
+    }
+}
+@media (max-width:390px) {
+    .footer_box form{
+        display: flex;
+        justify-content: start;
     }
 }
