@@ -550,10 +550,11 @@ section{
     }
     .footer_box form{
         display: flex;
+        justify-content: center;
     }
     .footer_box form button{
         height: 50px;
-        padding: 0px 8px;
+        padding: 0px 20px;
     }
     .footer_box form button p{
         font-size: 13px;
@@ -584,5 +585,8 @@ section{
     }
     .footer_links_box{
         gap: 0px;
+    }
+    .privacy{
+        display: none;
     }
 }
